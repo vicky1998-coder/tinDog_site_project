@@ -1,0 +1,172 @@
+body {
+	font-family: "Bakbak One", cursive;
+}
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.5;
+	font-weight: lighter;
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-family: "Bakbak One", cursive;
+	line-height: 1.5;
+	font-weight: bold;
+	color: #2e4c6d;
+}
+
+p {
+	color: #8f8f8f;
+	font-family: "Ubuntu", cursive;
+	font-size: 1.2rem;
+}
+
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+
+#title {
+	background-color: #f999b7;
+	color: white;
+}
+
+/* navbar */
+.navbar {
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-weight: normal;
+	font-size: 3rem;
+}
+
+#brand-name {
+	color: #1a374d;
+}
+
+.nav-item {
+	padding: 0 19px;
+}
+
+.nav-link {
+	font-size: 1.5rem;
+	font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+.download-button {
+	margin: 7% 3% 5% 0%;
+}
+
+/* Title Image */
+.iphone-image {
+	width: 60%;
+	transform: rotate(25deg);
+	right: 30%;
+	position: absolute;
+}
+.iphone-container {
+	position: relative;
+}
+
+/* Features */
+#features {
+	background-color: white;
+	position: relative;
+	padding: 4% 5%;
+}
+.feature-container {
+	padding: 13% 12%;
+	text-align: center;
+}
+
+.feature-icon {
+	color: #f999b7;
+	padding: 5% 0;
+}
+
+.feature-icon:hover {
+	color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+	text-align: center;
+	background-color: #f999b7;
+	color: white;
+}
+
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+#press {
+	text-align: center;
+	background-color: #f999b7;
+	padding-bottom: 3%;
+}
+.press-image {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+	text-align: center;
+	padding: 10%;
+}
+
+.price-data {
+	padding: 5%;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+}
+
+/* media queries */
+@media (max-width: 1028px) {
+	#title-section {
+		text-align: center;
+	}
+	.iphone-image {
+		transform: rotate(0);
+		position: static;
+	}
+}
+
+/* Call to action section */
+#cta {
+	background-color: #f999b7;
+	text-align: center;
+	padding: 7% 15%;
+	color: white;
+}
+
+/* Footer section */
+#footer {
+	text-align: center;
+	padding: 5% 0 3%;
+}
+
+.footer-icon {
+	color: #f999b7;
+	padding: 2% 1%;
+}
+
+.footer-icon:hover {
+	color: #ff4c68;
+}
